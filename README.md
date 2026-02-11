@@ -11,31 +11,7 @@ If only thermal noise is considered, the sensitivity of a PIN photodiode-based r
 
 
 
-\[
-S = \frac{Q \cdot \sigma_T}{R}
-\]
-
-
-
-Where:
-- **S** = sensitivity (W)  
-- **Q** = desired Q factor (related to BER)  
-- **R** = photodiode responsivity (A/W)  
-- **σT** = rms thermal noise current (A)  
-
-The rms thermal noise current is given by:
-
-
-
-\[
-\sigma_T^2 = S_T \cdot B
-\]
-
-
-
-Where:
-- **ST** = thermal noise spectral density (A²/Hz)  
-- **B** = receiver bandwidth (Hz)  
+<img width="1126" height="718" alt="image" src="https://github.com/user-attachments/assets/22298a91-302d-41e4-b254-86c9b8ec704e" />
 
 ---
 
