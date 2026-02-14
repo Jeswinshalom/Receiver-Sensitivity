@@ -48,13 +48,14 @@ Power meters are placed:
 - After the attenuator (input to receiver)  
 
 ---
-
 ## Simulation
 Steps:
 1. Adjust output power to **0 dBm**.  
 2. Set attenuator to **20 dB**.  
 3. Run the simulation.  
-4. Adjust attenuator until **Q factor = 6.00 ± 0.05**.  
+4. Adjust attenuator until **Q factor = 6.00 ± 0.05**.
+
+
 ![1](https://github.com/user-attachments/assets/3a87028f-961d-42a8-9974-7c6b43855d26)
 ![2](https://github.com/user-attachments/assets/b025967e-ac80-4d9c-a78c-4f2c55f08a34)
 <img width="970" height="736" alt="3" src="https://github.com/user-attachments/assets/2089fc70-7488-49cf-a5d2-a139f6fc3e74" />
@@ -70,7 +71,7 @@ Your report should include:
   - BER analyzer output  
   - Eye diagram  
 - Discussion of differences between analytical and simulation results.
-
+---
   ## Result
 
   The simulation results closely match the analytical value, with only minor variation due to filter bandwidth and numerical modeling effects, confirming the theoretical receiver sensitivity.
